@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Font1/Yekan.ttf">
+    <link rel="stylesheet" href="../css files/digi.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-2  text-bg-light p-3">
+                <img src="../files/logo.svg" alt="" class="logo">
+            </div>
+            <div class="col-md-6  text-bg-light p-3">
+                <img width="30" height="30" src="https://img.icons8.com/fluency-systems-regular/48/search--v1.png"
+                    alt="search--v1" / class="ic"> <input type="text" placeholder="جستجو" class="search">
+            </div>
+            <div class="col-md-4 text-bg-light p-3">
+                <div class="dropdown">
+                    <button class="login " data-bs-toggle="dropdown" data-bs-auto-close="outside"> <img width="20"
+                            height="20" src="https://img.icons8.com/ios/50/import.png" alt="import" /
+                            style="margin-left: 5px;">ورود <span
+                            style="color: black;position: relative;left: 2px;">|</span>ثبت نام
+                    </button>
+                    <form class="dropdown-menu p-4">
+                        <div class="image">
+                            <img src="../images/digikala.svg" alt="">
+                        </div>
+                        <h5 class="h5">ورود | ثبت‌نام</h5>
+                        <p class="p">سلام!</p>
+                        <label class="label">لطفا شماره موبایل یا ایمیل خود را وارد کنید</label>
+                        <br>
+                        <input type="text" class="ops">
+                        <button type="submit" class="vor">ورود</button>
+                    </form>
+                </div>
+                <button class="buy"><img width="25" height="25" src="https://img.icons8.com/pulsar-line/48/buy.png"
+                        alt="buy" /></button>
+            </div>
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-xl-10 text-bg-light p-2 a">
+                        <ul class="nav">
+                            <li><a href="" class="das"><img width="20" height="20"
+                                        src="https://img.icons8.com/ios-filled/50/menu--v1.png" alt="menu--v1" />
+                                    <b>دسته بندی
+                                        کالاها</b></a> </li>
+                            <span>|</span>
+                            <li>
+                                <a href="" class="das1"> <img width="20" height="20"
+                                        src="https://img.icons8.com/material-outlined/24/percentage2.png"
+                                        alt="percentage2" /> شگفت انگیزها
+                                </a>
+                            </li>
+                            <li><a href="" class="das1"> <img width="20" height="20"
+                                        src="https://img.icons8.com/windows/32/shop.png" alt="shop" />سوپرمارکت</a></li>
+                            <li><a href="" class="das1"><img width="20" height="20"
+                                        src="https://img.icons8.com/windows/32/gift-card.png" alt="gift-card" /
+                                        style="margin-left: 2px;">کارت هدیه</a></li>
+                            <li><a href="" class="das1"><img width="18" height="18"
+                                        src="https://img.icons8.com/metro/26/fire-element.png" alt="fire-element" /
+                                        style="margin-left: 2px;">پرفروش ترین ها</a></li>
+                            <li><a href="" class="das1"><img width="20" height="20"
+                                        src="https://img.icons8.com/windows/32/sale-price-tag.png"
+                                        alt="sale-price-tag" />تخفیف هاوپیشنهادها
+                                </a></li>
+                            <li><a href="" class="das1"> سوالی دارید؟</a></li>
+                            <li><a href="" class="das1"> در دیجی کالا بفروشید!</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 text-bg-light p-2 a">
+                        <button class="locat" title="لطفا شهر خود را انتخاب کنید"><img width="20" height="20"
+                                src="https://img.icons8.com/fluency-systems-regular/48/marker--v1.png" alt="marker--v1"
+                                / style="margin-left: 5px;">لطفا شهر خود را انتخاب کنید</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div style="margin-top: 120px;">
+        <h5 style="margin-right: 30px;">انواع گوشی موبایل</h5>
+    </div>
+
+
+    <div class="col">
+        <div class="aa">
+            <h3 style="margin-right: 20px;margin-top: 10px;">فیلتر ها</h3>
+            <div class=" acor">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item ty">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne" onclick="Close()">
+                                <p style="font-size: 19px;padding-left: 165px;">محصولات</p>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body ">
+                                <div class="form-check form-switch jh">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="ch3" onclick="Show3()">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">گوشی اپل</label>
+                                </div>
+                                <div class="form-check form-switch jh">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">گوشی سامسونگ</label>
+                                </div>
+                                <div class="form-check form-switch jh">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">گوشی شیایومی</label>
+                                </div>
+                                <div class="form-check form-switch jh">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">گوشی نوکیا </label>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item ty">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                <p style="font-size: 19px;padding-left: 128px;">گوشی های روز</p>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="form-check form-switch jh">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">گوشی سامسونگ
+                                        مدلA</label>
+                                </div>
+                                <div class="form-check form-switch jh">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">گوشی شیایومی مدل
+                                        Note</label>
+                                </div>
+                                <div class="form-check form-switch jh">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">گوشی اپل مدل X</label>
+                                </div>
+                                <div class="form-check form-switch jh">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">گوشی نوکیا مدل
+                                        هوشمند</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item ty">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                <p style="font-size: 19px;padding-left: 81px;">گوشی های تخفیف دار</p>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="form-check form-switch jh">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">گوشی سامسونگ
+                                        مدلA53</label>
+                                </div>
+                                <div class="form-check form-switch jh">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">گوشی آیفون 13
+                                        پرومکس</label>
+                                </div>
+                                <div class="form-check form-switch jh">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">گوشی شیایومی Note13
+                                        pro</label>
+                                </div>
+                                <div class="form-check form-switch jh">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">گوشی نوکیا مدل
+                                        N70</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="form-check form-switch jt">
+                    <input class="form-check-input you" type="checkbox" role="switch" id="ch2" onclick="Show2()">
+                    <label class="form-check-label lor" for="">گوشی های موجود در انبار</label>
+                </div>
+                <div class="form-check form-switch jt">
+                    <input class="form-check-input you" type="checkbox" role="switch" id="ch1" onclick="Show1()">
+                    <label class="form-check-label lor" for="">ارسال امروز<img width="20" height="20"
+                            src="https://img.icons8.com/arcade/64/time.png" alt="time" /></label>
+                </div>
+            </div>
+        </div>
+        <div class="bb">
+            <div class="head1">
+                <label for=""><img width="20" height="20"
+                        src="https://img.icons8.com/ios-filled/50/stripped-patterns-2.png" alt="stripped-patterns-2" />
+                    مرتب سازی:</label>
+                <ul class="nav1">
+                    <li><a href="">پربازدید ترین</a></li>
+                    <li><a href="">جدیدترین</a></li>
+                    <li><a href="">ارزان ترین</a></li>
+                    <li><a href="">پرفروش ترین</a></li>
+                    <li><a href="">گران ترین</a></li>
+                </ul>
+            </div>
+
+            <div class="head2">
+                <div class="card1 Th Apple">
+                    <div style="width: 100%;">
+                        <img src="../files/ec9a962187e1f82cc47e7a148ef99ec1c6fd024d_1656423336.webp" alt="" width="80%"
+                            height="80%" style="margin-right: 30px;">
+                    </div>
+                    <div style="width: 100%;">
+                        <p style="margin-top: 5px; color: crimson; font-size: 14px;"><img width="20" height="20"
+                                src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1" /
+                                style="margin-bottom: 6px;margin-left: 5px;margin-right: 5px;">ارسال رایگان</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <p style=" margin-right:5px;font-size: 14px;">گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت
+                            ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو</p>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; color: crimson;"><img width="18" height="18"
+                                    src="https://img.icons8.com/tiny-color/16/discount.png" alt="discount" /
+                                    style="margin-left: 5px;">تخفیف ویژه</p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; float: left;margin-left: 10px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/star.png" alt="star" />4.5</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;"></div>
+                        <div style="width: 50%;">
+                            <p style="float: left;margin-left: 10px;">42.555.000تومان</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card1 Th">
+                    <div style="width: 100%;">
+                        <img src="../files/s1.webp" alt="" width="80%" height="80%" style="margin-right: 30px;">
+                    </div>
+                    <div style="width: 100%;">
+                        <p style="margin-top: 5px; color: crimson; font-size: 14px;"><img width="20" height="20"
+                                src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1" /
+                                style="margin-bottom: 6px;margin-left: 5px;margin-right: 5px;">ارسال رایگان</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <p style=" margin-right:5px;font-size: 14px;">گوشی موبایل سامسونگ مدل Galaxy S23 FE دو سیم کارت
+                            ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام
+                        </p>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; color: crimson;"><img width="18" height="18"
+                                    src="https://img.icons8.com/tiny-color/16/discount.png" alt="discount" /
+                                    style="margin-left: 5px;">تخفیف ویژه</p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; float: left;margin-left: 10px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/star.png" alt="star" />4.5</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;"></div>
+                        <div style="width: 50%;">
+                            <p style="float: left;margin-left: 10px;">42.555.000تومان</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card1 er1 Apple">
+                    <div style="width: 100%;">
+                        <img src="../files/2.webp" alt="" width="80%" height="80%" style="margin-right: 30px;">
+                    </div>
+                    <div style="width: 100%;">
+                        <p style="margin-top: 5px; color: crimson; font-size: 14px;"><img width="20" height="20"
+                                src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1" /
+                                style="margin-bottom: 6px;margin-left: 5px;margin-right: 5px;">ارسال رایگان</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <p style=" margin-right:5px;font-size: 14px;">گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت
+                            ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو</p>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/clock.png" alt="clock" /
+                                    style="margin-right: 5px;margin-left: 5px;">ارسال امروز</p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; float: left;margin-left: 10px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/star.png" alt="star" />4.5</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;"></div>
+                        <div style="width: 50%;">
+                            <p style="float: left;margin-left: 10px;">42.555.000تومان</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card1 er1">
+                    <div style="width: 100%;">
+                        <img src="../files/s3.webp" alt="" width="80%" height="80%" style="margin-right: 30px;">
+                    </div>
+                    <div style="width: 100%;">
+                        <p style="margin-top: 5px; color: crimson; font-size: 14px;"><img width="20" height="20"
+                                src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1" /
+                                style="margin-bottom: 6px;margin-left: 5px;margin-right: 5px;">ارسال رایگان</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <p style=" margin-right:5px;font-size: 14px;">گوشی موبایل سامسونگ مدل Galaxy A54 5G دو سیم کارت
+                            ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام</p>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/clock.png" alt="clock" /
+                                    style="margin-right: 5px;margin-left: 5px;">ارسال امروز</p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; float: left;margin-left: 10px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/star.png" alt="star" />4.5</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;"></div>
+                        <div style="width: 50%;">
+                            <p style="float: left;margin-left: 10px;">42.555.000تومان</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card1 er1">
+                    <div style="width: 100%;">
+                        <img src="../files/s4.webp" alt="" width="80%" height="80%" style="margin-right: 30px;">
+                    </div>
+                    <div style="width: 100%;">
+                        <p style="margin-top: 5px; color: crimson; font-size: 14px;"><img width="20" height="20"
+                                src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1" /
+                                style="margin-bottom: 6px;margin-left: 5px;margin-right: 5px;">ارسال رایگان</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <p style=" margin-right:5px;font-size: 14px;">گوشی موبایل سامسونگ مدل Galaxy S23 FE دو سیم کارت
+                            ظرفیت 256 گیگابایت و رم 8 گیگابایت - ویتنام</p>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/clock.png" alt="clock" /
+                                    style="margin-right: 5px;margin-left: 5px;">ارسال امروز</p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; float: left;margin-left: 10px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/star.png" alt="star" />4.5</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;"></div>
+                        <div style="width: 50%;">
+                            <p style="float: left;margin-left: 10px;">42.555.000تومان</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card1 er1 Apple">
+                    <div style="width: 100%;">
+                        <img src="../files/1.webp" alt="" width="75%" height="75%" style="margin-right: 30px;">
+                    </div>
+                    <div style="width: 100%;">
+                        <p style="margin-top: 5px; color: crimson; font-size: 14px;"><img width="20" height="20"
+                                src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1" /
+                                style="margin-bottom: 6px;margin-left: 5px;margin-right: 5px;">ارسال رایگان</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <p style=" margin-right:5px;font-size: 14px;">گوشی موبایل اپل مدل iPhone 13 Pro Max ZDA تک سیم‌
+                            کارت ظرفیت 256 گیگابایت و رم 6 گیگابایت - نات اکتیو ریفربیش پارت نامبر F</p>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/clock.png" alt="clock" /
+                                    style="margin-right: 5px;margin-left: 5px;">ارسال امروز</p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; float: left;margin-left: 10px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/star.png" alt="star" />4.5</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;"></div>
+                        <div style="width: 50%;">
+                            <p style="float: left;margin-left: 10px;">42.555.000تومان</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card1 Ad Apple">
+                    <div style="width: 100%;">
+                        <img src="../files/2.webp" alt="" width="80%" height="80%" style="margin-right: 30px;">
+                    </div>
+                    <div style="width: 100%;">
+                        <p style="margin-top: 5px; color: crimson; font-size: 14px;"><img width="20" height="20"
+                                src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1" /
+                                style="margin-bottom: 6px;margin-left: 5px;margin-right: 5px;">ارسال رایگان</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <p style=" margin-right:5px;font-size: 14px;">گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت
+                            ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو</p>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; margin-right: 5px; color: crimson;">تنها 5عدد باقی مانده</p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; float: left;margin-left: 10px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/star.png" alt="star" />4.5</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;"></div>
+                        <div style="width: 50%;">
+                            <p style="float: left;margin-left: 10px;">42.555.000تومان</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card1 Ad Apple">
+                    <div style="width: 100%;">
+                        <img src="../files/33.webp" alt="" width="80%" height="80%" style="margin-right: 30px;">
+                    </div>
+                    <div style="width: 100%;">
+                        <p style="margin-top: 5px; color: crimson; font-size: 14px;"><img width="20" height="20"
+                                src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1" /
+                                style="margin-bottom: 6px;margin-left: 5px;margin-right: 5px;">ارسال رایگان</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <p style=" margin-right:5px;font-size: 14px;">گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت
+                            ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو</p>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; margin-right: 5px;color: crimson;">تنها 3عدد باقی مانده</p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; float: left;margin-left: 10px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/star.png" alt="star" />4.5</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;"></div>
+                        <div style="width: 50%;">
+                            <p style="float: left;margin-left: 10px;">42.555.000تومان</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card1 Th">
+                    <div style="width: 100%;">
+                        <img src="../files/2.webp" alt="" width="80%" height="80%" style="margin-right: 30px;">
+                    </div>
+                    <div style="width: 100%;">
+                        <p style="margin-top: 5px; color: crimson; font-size: 14px;"><img width="20" height="20"
+                                src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1" /
+                                style="margin-bottom: 6px;margin-left: 5px;margin-right: 5px;">ارسال رایگان</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <p style=" margin-right:5px;font-size: 14px;">گوشی موبایل نوکیا مدل 105 2022 AR دو سیم کارت
+                            ظرفیت 4 مگابایت و رم 4 مگابایت - فاقد منوی فارسی</p>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; color: crimson;"><img width="18" height="18"
+                                    src="https://img.icons8.com/tiny-color/16/discount.png" alt="discount" /
+                                    style="margin-left: 5px;">تخفیف ویژه</p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; float: left;margin-left: 10px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/star.png" alt="star" />4.5</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;"></div>
+                        <div style="width: 50%;">
+                            <p style="float: left;margin-left: 10px;">755.000تومان</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card1 Th">
+                    <div style="width: 100%;">
+                        <img src="../files/n1.webp" alt="" width="80%" height="80%" style="margin-right: 30px;">
+                    </div>
+                    <div style="width: 100%;">
+                        <p style="margin-top: 5px; color: crimson; font-size: 14px;"><img width="20" height="20"
+                                src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1" /
+                                style="margin-bottom: 6px;margin-left: 5px;margin-right: 5px;">ارسال رایگان</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <p style=" margin-right:5px;font-size: 14px;">گوشی موبایل نوکیا مدل 5710 XpressAudio دو سیم کارت
+                        </p>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; color: crimson;"><img width="18" height="18"
+                                    src="https://img.icons8.com/tiny-color/16/discount.png" alt="discount" /
+                                    style="margin-left: 5px;">تخفیف ویژه</p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; float: left;margin-left: 10px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/star.png" alt="star" />4.5</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;"></div>
+                        <div style="width: 50%;">
+                            <p style="float: left;margin-left: 10px;">855.000تومان</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card1 er1">
+                    <div style="width: 100%;">
+                        <img src="../files/v2.webp" alt="" width="80%" height="80%" style="margin-right: 30px;">
+                    </div>
+                    <div style="width: 100%;">
+                        <p style="margin-top: 5px; color: crimson; font-size: 14px;"><img width="20" height="20"
+                                src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1" /
+                                style="margin-bottom: 6px;margin-left: 5px;margin-right: 5px;">ارسال رایگان</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <p style=" margin-right:5px;font-size: 14px;">گوشی موبایل شیائومی مدل Poco M6 Pro دو سیم کارت
+                            ظرفیت 512 گیگابایت و رم 12 گیگابایت</p>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/clock.png" alt="clock" /
+                                    style="margin-right: 5px;margin-left: 5px;">ارسال امروز</p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; float: left;margin-left: 10px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/star.png" alt="star" />4.5</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;"></div>
+                        <div style="width: 50%;">
+                            <p style="float: left;margin-left: 10px;">15.555.000تومان</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card1 Ad">
+                    <div style="width: 100%;">
+                        <img src="../files/v1.webp" alt="" width="80%" height="80%" style="margin-right: 30px;">
+                    </div>
+                    <div style="width: 100%;">
+                        <p style="margin-top: 5px; color: crimson; font-size: 14px;"><img width="20" height="20"
+                                src="https://img.icons8.com/ios/50/truck--v1.png" alt="truck--v1" /
+                                style="margin-bottom: 6px;margin-left: 5px;margin-right: 5px;">ارسال رایگان</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <p style=" margin-right:6px;font-size: 14px;">گوشی موبایل شیائومی مدل Redmi 13C دو سیم کارت
+                            ظرفیت 256 گیگابایت و رم 8 گیگابایت</p>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px;margin-right: 5px;color: crimson; ">تنها 2عدد باقی مانده</p>
+                        </div>
+                        <div style="width: 50%;">
+                            <p style="font-size: 14px; float: left;margin-left: 10px;"><img width="16" height="16"
+                                    src="https://img.icons8.com/tiny-color/16/star.png" alt="star" />4.5</p>
+                        </div>
+                    </div>
+                    <div style="width: 100%; display: flex;">
+                        <div style="width: 50%;"></div>
+                        <div style="width: 50%;">
+                            <p style="float: left;margin-left: 10px;">20.100.000تومان</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <script>
+   
+        function Show1 ()
+        {
+             var list=new Array();
+             list=document.getElementsByClassName("er1");
+             list2=document.getElementsByClassName("Th");
+             list3=document.getElementsByClassName("Ad");
+             var mych1= document.getElementById("ch1");
+            if (mych1.checked==true)
+            {
+                Un_Ckecked(true,false,false);
+                for( let i=0 ; i<list.length ; i++)
+                {
+                     list[i].style.display="block"
+                }
+                for( let i=0 ; i<list2.length ; i++)
+                {
+                     list2[i].style.display="none"
+                }
+
+               for( let i=0 ; i<list3.length ; i++)
+                {
+                     list3[i].style.display="none"
+                }
+            } 
+            else if(mych1.checked==false)
+            {
+                for( let i=0 ; i<list.length ; i++)
+                {
+                     list[i].style.display="block"
+                }
+                for( let i=0 ; i<list2.length ; i++)
+                {
+                     list2[i].style.display="block"
+                }
+
+               for( let i=0 ; i<list3.length ; i++)
+                {
+                     list3[i].style.display="block"
+                }
+            }
+
+        }
+
+        function Show2 ()
+        {
+             var list=new Array();
+             list=document.getElementsByClassName("er1");
+             list2=document.getElementsByClassName("Th");
+             list3=document.getElementsByClassName("Ad");
+             var mych1= document.getElementById("ch2");
+            if (mych1.checked==true)
+            {
+                Un_Ckecked(false,true,false);
+                for( let i=0 ; i<list.length ; i++)
+                {
+                     list[i].style.display="none"
+                }
+                for( let i=0 ; i<list2.length ; i++)
+                {
+                     list2[i].style.display="block"
+                }
+
+               for( let i=0 ; i<list3.length ; i++)
+                {
+                     list3[i].style.display="none"
+                }
+            } 
+            else if(mych1.checked==false)
+            {
+                for( let i=0 ; i<list.length ; i++)
+                {
+                     list[i].style.display="block"
+                }
+                for( let i=0 ; i<list2.length ; i++)
+                {
+                     list2[i].style.display="block"
+                }
+
+               for( let i=0 ; i<list3.length ; i++)
+                {
+                     list3[i].style.display="block"
+                }
+            }
+
+        }
+
+        function Show3 ()
+        {
+             var list=new Array();
+             list=document.getElementsByClassName("er1");
+             list2=document.getElementsByClassName("Th");
+             list3=document.getElementsByClassName("Apple");
+             var mych1= document.getElementById("ch3");
+            if (mych1.checked==true)
+            {
+                Un_Ckecked(false,false,true);
+                for( let i=0 ; i<list.length ; i++)
+                {
+                     list[i].style.display="none"
+                }
+                for( let i=0 ; i<list2.length ; i++)
+                {
+                     list2[i].style.display="none"
+                }
+
+               for( let i=0 ; i<list3.length ; i++)
+                {
+                     list3[i].style.display="block"
+                }
+                
+            } 
+            else if(mych1.checked==false)
+            {
+                for( let i=0 ; i<list.length ; i++)
+                {
+                     list[i].style.display="block"
+                }
+                for( let i=0 ; i<list2.length ; i++)
+                {
+                     list2[i].style.display="block"
+                }
+
+               for( let i=0 ; i<list3.length ; i++)
+                {
+                     list3[i].style.display="block"
+                }
+            }
+
+        }
+        function Close ()
+        {
+            var list=new Array();
+             list=document.getElementsByClassName("er1");
+             list2=document.getElementsByClassName("Th");
+             list3=document.getElementsByClassName("Apple");
+             var mych1= document.getElementById("ch3");
+            document.getElementById("ch3").checked=false;
+            for( let i=0 ; i<list.length ; i++)
+                {
+                     list[i].style.display="block"
+                }
+                for( let i=0 ; i<list2.length ; i++)
+                {
+                     list2[i].style.display="block"
+                }
+
+               for( let i=0 ; i<list3.length ; i++)
+                {
+                     list3[i].style.display="block"
+                }
+        }
+
+
+
+
+        function Un_Ckecked (a,b,c)
+        {
+           document.getElementById("ch1").checked=a;
+           document.getElementById("ch2").checked=b;
+           document.getElementById("ch3").checked=c;
+           
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "Font1";
+    src:
+      local("nimafont"),
+      url("../Font1/Yekan.ttf") format("opentype") tech(color-COLRv1),
+      url("../Font1/Yekan.ttf") format("opentype"),
+      url("../Font1/Yekan.ttf") format("woff");
+  }
+  *{
+    font-family:Font1;
+  }
+  body{
+    
+    overflow-x: hidden;
+  }
+  header{
+    position: fixed;top: 0px; z-index: 1000;
+    box-shadow: 0px 0px 15px silver;
+   
+  }
+  .logo{
+  position: relative;right: 40px;
+  }
+  .search{
+    height: 30px;width: 70%;
+    position: relative;bottom: 2px;left: 15px;
+    border-style: none;font-size: smaller;
+    padding-right: 30px;
+  }
+  .ic{
+     position: relative;bottom: 3px;right: 18px;     z-index: 10;
+  }
+ .login{
+    position: absolute; right: 240px;border-radius: 3px;height: 35px;
+    border-style: groove;border-color: rgb(255, 255, 255); border-radius: 5px;
+ }
+ .login:hover{
+    background-color: crimson;
+    color: aliceblue;
+ }
+ .buy{
+    position: relative;right: 370px; top: 5px;
+    border-radius: 2px;border-style: none;border-color: rgb(251, 251, 251);
+          border-right-style: groove;
+          padding-right: 10px;
+ }
+ .dropdown{
+    position: relative;z-index: 10000; 
+ }
+ .dropdown-menu{
+    height: 300px;width: 60%; 
+ }
+ .image{
+    margin-left: 50px;
+ }
+ .h5{
+    margin-left: 100px;
+ }
+.label{
+    position: relative;left: 30px; width: 120%;
+}
+.p{
+    position: relative;left: 180px;
+}
+.ops{
+    height:30px;width: 80%;margin-left: 30px;margin-top: 20px;
+}
+.vor{
+    height: 50px;width: 100%; margin-top: 30px;margin-left: 30px;background-color: crimson;
+    border-radius: 5px;border-style: none;color: aliceblue;
+}
+.nav{
+   position: relative;bottom: 8px;
+}
+.nav>li{
+    margin-left: 30px;padding-bottom: 5px;
+}
+.nav>li:hover{
+   border-bottom-style: groove;border-bottom-color: crimson;
+   border-bottom-width: 2px;
+}
+.nav>span{
+   position: relative;left: 20px;top: 1px;
+}
+.das{
+   text-decoration: none;color: black;
+}
+.das1{
+   text-decoration: none;color: black; font-size: small; 
+}
+.a{
+   height: 30px;
+}
+.locat{
+   position: relative;bottom: 7px;
+   border-style: none;
+}
+.col{
+    display: flex;width: 100%; margin-top: 50px;
+}
+.aa{
+    width: 20%; height: 600px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px silver;
+   border-radius: 20px;
+}
+.bb{
+    width: 80%; height: 1020px;
+    background-color: rgba(255, 255, 255, 0.759);
+}
+.b1{
+    background-color: rgb(0, 255, 8);
+}
+.acor{
+    margin-top: 50px;
+    
+}
+.jh{
+    padding-bottom: 10px;
+}
+.you{
+   position: relative;left: 20px; 
+   
+}
+.jt{
+    margin-top: 20px;
+   
+}
+.lor{
+    margin-right: 20px;
+}
+.head1{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+.head1>.nav1>li>a{
+    text-decoration: none;
+    color: rgb(118, 113, 113);
+    font-size: 14px;
+}
+.head1>.nav1>li>a:hover{
+   color: crimson;
+}
+.nav1{
+    position: relative;bottom: 34px;right: 60px;
+    list-style: none; 
+    display: flex;
+
+}
+.head1>.nav1>li{
+   padding: 10px;
+}
+.head2{
+    
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+     
+  
+}
+.card1{
+    height: 400px;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
+.card11{
+    height: 400px;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;  
+    position: relative;bottom: 515px; 
+}
